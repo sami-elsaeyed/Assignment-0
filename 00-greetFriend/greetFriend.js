@@ -1,6 +1,5 @@
-function greetFriend(name) {
-  var s = "Hello, "+ name+ "!";
-  return s;
+greetFriend = (name) => {
+  return "Hello, " + name + "!";
 }
 
 // Do not edit this line;
