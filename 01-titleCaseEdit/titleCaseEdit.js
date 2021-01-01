@@ -7,7 +7,7 @@ function titleCaseEdit(title) {
   }
   }
   }
-return s;
+return title;
 }
 
 // Do not edit this line;
