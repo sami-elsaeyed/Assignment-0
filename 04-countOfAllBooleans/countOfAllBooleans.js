@@ -1,6 +1,6 @@
 function countOfAllBooleans(arr) {
   var count =0;
-  for(var i =0;i<=arr.length();i++){
+  for(var i =0;i<=arr.length;i++){
     if(arr[i] instanceof Boolean)
       count++;
   }
