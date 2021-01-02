@@ -5,7 +5,7 @@ class MySolution {
 
   binarySearch(nums, target) {
     var mid= nums.length/2;
-    if(nums(mid)==target){
+    if(nums[mid]==target){
       return true;
     }
     if (mid+1>=hi)
