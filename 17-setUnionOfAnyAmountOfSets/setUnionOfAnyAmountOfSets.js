@@ -1,7 +1,7 @@
 function setUnionOfAnyAmountOfSets(...args) {
   var unSet =new Set();
-  for(var i=0;i<=arguments.length;i++ ){
-    unSet =unSet.union(arguments[i]);
+  for(let arg of args ){
+    unSet =unSet.union(arg);
   }
   return unSet;
 }
