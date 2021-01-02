@@ -13,6 +13,7 @@ function fizzBuzz(start, end) {
     else 
       fizz.push(i);
   }
+  return fizz;
 }
 
 // Do not edit this line;
