@@ -1,7 +1,7 @@
 function sumOfNumsWithinARange(nums, start, end) {
   var count=0;
   for(var i=0;i<nums.length;i++){
-    if(nums[i]>start && nums[i]<end)
+    if(nums[i]>=start && nums[i]=<end)
       count++;
   }
   return count;
