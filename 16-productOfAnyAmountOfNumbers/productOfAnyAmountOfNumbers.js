@@ -1,5 +1,5 @@
 function productOfAnyAmountOfNumbers(...args) {
-  var prod=0;
+  var prod=1;
   for(let arg of args){
      prod*=arg; 
   }
