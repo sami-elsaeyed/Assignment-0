@@ -4,7 +4,16 @@ class MySolution {
   }
 
   binarySearch(nums, target) {
-    // Insert code here;
+    var mid= nums.length/2;
+    if(nums(mid)==target){
+      return true;
+    }
+    if (mid+1>=hi)
+      return false;
+    if(nums[mid]<target)
+      return this.binarySearch(nums.slice(mid+1,nums.length),target);
+    if(nums[mid]>target)
+      return this.binarySearch(nums.slice(0,mid-1),target);
   }
 }
 
