@@ -7,7 +7,8 @@ function sumOfMinimumAndMaximum(nums) {
     else
       max=nums[i+1];
   }
-  return max+min;
+  var s =max+min;
+  return s;
 }
 
 // Do not edit this line;
