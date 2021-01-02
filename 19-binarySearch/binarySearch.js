@@ -11,7 +11,7 @@ class MySolution {
     if (mid>=nums.length)
       return false;
     if(nums[mid]<target)
-      return this.binarySearch(nums.slice(mid+1,nums.length),target);
+      return this.binarySearch(nums.slice(mid+1,nums.length-1),target);
     if(nums[mid]>target)
       return this.binarySearch(nums.slice(0,mid-1),target);
   }
