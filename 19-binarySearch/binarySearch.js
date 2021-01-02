@@ -4,7 +4,7 @@ class MySolution {
   }
 
   binarySearch(nums, target) {
-    var mid= Math.floor(nums.length/2);
+    var mid= (nums.length/2);
     if(nums[mid]==target){
       return true;
     }
