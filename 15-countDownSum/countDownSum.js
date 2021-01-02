@@ -1,9 +1,9 @@
 class MySolution {
   countDownSum(num) {
-    if(this.num==2)
-      return 3;
+    if(num==1)
+      return num;
     else
-    return this.num+this.countDownSum(this.num-1);
+    return num+this.countDownSum(num-1);
   }
 }
 
