@@ -1,7 +1,7 @@
 function productOfAnyAmountOfNumbers(...args) {
   var prod=0;
-  for(let args of args){
-     prod*=args; 
+  for(let arg of args){
+     prod*=arg; 
   }
   return prod;
 }
