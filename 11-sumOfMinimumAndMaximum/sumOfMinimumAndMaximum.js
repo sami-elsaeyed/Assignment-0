@@ -4,8 +4,10 @@ function sumOfMinimumAndMaximum(nums) {
   for(var i=0; i<nums.length;i++){
     if(nums[i]>nums[i+1])
       min=nums[i+1];
+    else 
+      max=nums[i+1];
   }
-  return min;
+  return min+=max;
 }
 
 // Do not edit this line;
