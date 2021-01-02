@@ -1,6 +1,8 @@
 class MySolution {
   countDownSum(num) {
-    // Insert code here;
+    if(num==2)
+      return 3;
+    return num+countDownSum(num-1);
   }
 }
 
