@@ -2,7 +2,7 @@ class MySolution {
   countDownSum(num) {
     if(num==2)
       return 3;
-    return num+countDownSum(num-1);
+    return num+this.countDownSum(num-1);
   }
 }
 
