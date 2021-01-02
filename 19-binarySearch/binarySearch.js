@@ -8,7 +8,7 @@ class MySolution {
     if(nums[mid]==target){
       return true;
     }
-    if (mid+1>=hi)
+    if (mid+1>=nums.length)
       return false;
     if(nums[mid]<target)
       return this.binarySearch(nums.slice(mid+1,nums.length),target);
